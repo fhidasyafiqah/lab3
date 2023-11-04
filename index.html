@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fhida - Personal Website</title>
+<style>
+    /* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color:#add8e6;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header and navigation */
+header {
+    display:flex;
+            flex-direction: column;
+            min-height: 50px;
+            background-color: lightgrey;
+            justify-items: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            color:black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style the sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Style the links to sections */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Apply styles to the sections */
+#biodata {
+    background-color:  #ffe4b5; /* Moccasin */
+    
+}
+
+#campus-life {
+    background-color: #add8e6; /* LightBlue */
+}
+
+#contact {
+    background-color: #ffcccb; /* LightCoral */
+}
+
+/* Reset default margin and padding */
+body, img, .caption {
+    margin: 0;
+    padding: 0;
+}
+
+.photo-grid {
+    display: flex; /* Change from grid to flex */
+    gap: 10px; /* Remove grid-specific styles */
+    margin: 20px;
+}
+
+.photo {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.photo:hover .caption {
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#biodata">Biodata</a></li>
+                <li><a href="#campus-life">Campus Life</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <img src="https://wallpaperaccess.com/full/4997051.jpg" alt="" width="1000" height="800">
+            <div class="centered">Fhidas Blog</div>
+        </div>
+    </header>
+
+    <section id="biodata">
+        <h1>Biodata</h1>
+        <h1 align="center">Biodata Table</h1>
+    <table align="center" border=".5">
+    <tr>
+        <td>Name</td>
+        <td>Siti Fhidasyafiqah binti Zakaria</td>
+        <td><img src = "C:\Users\fhida\Desktop\wallpaper\fhida1.jpg" width="20%"></td>
+    </tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td colspan="2">15 February 2002</td>
+    </tr>
+    <tr>
+        <td>Religion</td>
+        <td colspan="2">Islam</td>
+    </tr>
+    <tr>
+        <td>Race</td>
+        <td colspan="2">Malay</td>
+    </tr>
+    <tr>
+        <td rowspan="4">Address</td>
+        <td>Street</td>
+        <td>Jalan Universiti 108</td>
+    </tr>
+    <tr>
+        <td>Town</td>
+        <td>Parit Raja</td>
+    </tr>
+    <tr>
+        <td>District</td>
+        <td>Batu Pahat</td>
+    </tr>
+    <tr>
+        <td>State</td>
+        <td>Johor</td>
+    </tr>
+    <tr>
+        <td>Course and Institution</td>
+        <td colspan="2">BIP- UTHM</td>
+    </tr>
+    <tr>
+        <td>Programming skills</td>
+        <td colspan="2">Beginner</td>
+    </tr>
+    <tr>
+        <td>Personal Interest</td>
+        <td colspan="2">Sport</td>
+    </tr>
+    <tr>
+        <td>Future plan in 2024</td>
+        <td colspan="2">Live a happy life</td>
+    </tr>
+</table>
+    </section>
+
+    <section id="campus-life">
+        <h1>Campus Life</h1>
+        <h1>Hobbies</h1>
+        <div class="photo-grid">
+            <div class="photo">
+            <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\me.jpg" alt="img1">
+            <div class="caption">I always play badminton with my friend in the evening whenever I have free time.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\jalan2.jpg" alt="img2">
+                <div class="caption">I also like to walk in the evening, sometime I go into the campus or just walk in my neighbourhood.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\sunset.jpg" alt="img3">
+                <div class="caption">Sometimes. I go to watch sunset. The sunset is so beautiful.</div>
+            </div>   
+        </div>
+        <h1>Hangout</h1>
+        <h1>Island Hopping</h1>
+        <div class="photo-grid">
+            <div class="photo">
+            <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\gua.jpg" alt="img4">
+            <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\gua1.jpg" alt="img5">
+                <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\dalamgua.jpg" alt="img6">
+                <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div> 
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\gua3.jpg" alt="img6">
+                <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\ramai2.jpg" alt="img7">
+                <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div> 
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\atasbukit.jpg" alt="img8">
+                <div class="caption">Here are some of the photos of the scenery and us during our island hopping trip at Mersing.</div>
+            </div>  
+        </div>
+        <h1>Badminton</h1>
+        <div class="photo-grid">
+            <div class="photo">
+            <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\badminton1.jpg" alt="img9">
+            <div class="caption">Here are some of the photos during the badminton battle.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\badminton2.jpg" alt="img10">
+                <div class="caption">Here are some of the photos during the badminton battle.</div>
+            </div>
+        </div>
+        <h1>Bukit Payung Hiking</h1>
+        <div class="photo-grid">
+            <div class="photo">
+            <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\bukit1.jpg" alt="img11">
+            <div class="caption">Here are some of the photos during the hiking at Bukit Payung.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\bukit2.jpg" alt="img12">
+                <div class="caption">Here are some of the photos during the hiking at Bukit Payung.</div>
+            </div>
+            <div class="photo">
+                <img src = "C:\Users\fhida\Downloads\Telegram Desktop\bercuti\bukit3.jpg" alt="img13">
+                <div class="caption">Here are some of the photos during the hiking at Bukit Payung.</div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <table align="center" border=".5">
+        <tr>
+            <td><img src = https://th.bing.com/th/id/OIP.Zs3KKjLcP_7mwWsbOWFQlgHaHa?w=191&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7 width="20%"></td>
+            <td>@fhidazzz</td>
+        </tr>
+        <tr>
+            <td><img src = https://th.bing.com/th/id/OIP.Go2CQNhF_49tkKcpEl_sHQHaHZ?w=210&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7 width="20%"></td>
+            <td>fhidasyafiqahz@gmail.com</td>
+        </tr>
+        <tr>
+            <td><img src = https://th.bing.com/th/id/OIP.X070FVs1DqLDb1dQThVrWwHaHa?w=201&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7 width="20%"></td>
+            <td>019-4929332</td>
+        </tr>
+    </table>
+    </section>
+</body>
+</html>
